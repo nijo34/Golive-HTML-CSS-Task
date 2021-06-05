@@ -1,0 +1,171 @@
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: Rajdhani-light;
+    src: url(../assets/Rajdhani-Light.ttf);
+  }
+
+@font-face {
+    font-family: Rajdhani-regular;
+    src: url(../assets/Rajdhani-Regular.ttf);
+
+  }
+
+  @font-face {
+    font-family: Rajdhani-medium;
+    src: url(../assets/Rajdhani-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: Rajdhani-semibold;
+    src: url(../assets/Rajdhani-SemiBold.ttf);
+  }
+
+
+@font-face {
+    font-family: Rajdhani-bold;
+    src: url(../assets/Rajdhani-Bold.ttf);
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #16032A;
+}
+
+.topnav {
+  background-color: #251942;
+    height: 70px;
+}
+
+.logo {
+    
+    margin: 10px 0 92px 31px;
+    opacity: 1;
+    
+}
+
+.side1 {
+    background-color: #251942;
+    color: #FFFFFF;
+    height: 60px;
+    font-family: Rajdhani-regular;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.side1-content{
+    margin: 0 0 0 45px;
+    padding: 0;
+}
+
+.side1-content p{
+    margin: 3px;
+}
+
+#p{
+    color:#BA32FF;
+    font-family: Rajdhani-semibold;
+    font-size: 14px;
+    
+}
+
+.AngleLeft{    
+    width: 14px;
+    height: 17px;
+    float: left;
+    margin: 10px 0 0  18px;
+}
+
+.side2{
+    background-color: #251942;
+    height:633px;
+    width: 300px;
+    
+}
+
+.side2-content{
+    
+    margin: 0 0 0 45px;
+
+}
+
+.side2-content p{
+    margin: 3px;
+    font-family: Rajdhani-medium;
+    font-weight: medium ;
+
+}
+
+#p0{
+    padding: 32px 0 0 0 ;  
+    font:Radjdhani-Bold;
+    color: #FFFFFF;
+}
+
+#p2,#p3,#p4{
+    color: #7C758D;
+    
+}
+
+.c2{
+    margin-top: 45px;
+}
+
+#p5{
+    font-family: Rajdhani-bold;
+    font-size: 16px;
+    color:#FFFFFF;
+}
+
+#p6,#p7{
+    font-family: Rajdhani-medium;
+    font-size: 14px;
+    color:#7C758D;
+}
+
+#left-arrow {
+    display: block;
+    box-sizing: border-box;
+    border-top: 20px solid transparent;
+    border-bottom:20px solid transparent ;
+    border-right: 16px solid#16032A;
+    float:right;
+  }
+
+.body-head{
+    display: flex;
+    font-family: Rajdhani-bold;
+    font-size: 16px;
+    color:#FFFFFF;
+    text-align: left;
+}
+
+.body-head p{
+    padding-left:40px;
+}
+
+.help{
+    font-family: Rajdhani-semibold;
+    position: absolute;
+    right: 94px;
+    font-size: 15px;
+    color:#BA32FF;
+    padding-top:3px ;
+}
+
+.content-container{
+    display: flex;
+}
+
+.rectangle{
+    height: 5px;
+    width: 51px;
+    background-color:#BA32FF;
+  }
+
+
+  
