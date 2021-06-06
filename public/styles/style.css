@@ -152,7 +152,7 @@ body {
 .help{
     font-family: Rajdhani-semibold;
     position: absolute;
-    right: 94px;
+    right: 80px;
     font-size: 15px;
     color:#BA32FF;
     padding-top:3px ;
@@ -162,11 +162,130 @@ body {
     display: flex;
 }
 
-.rectangle{
-    height: 5px;
-    width: 51px;
-    background-color:#BA32FF;
+.basic{
+    border-bottom:4px solid #BA32FF;
+}
+
+.body-content{
+    margin: 15px 0 0 40px;
+    width:1095px;
+    height:123px;
+    background-color: #21123A;
+    display: flex;
+}
+
+.body-content p{
+    font-family: Rajdhani-semibold;
+    font-size: 25px;
+    color:#FFFFFF;
+    margin: 49px 0 0 15px;
+
+}
+.images{
+    position: absolute;
+    right: 99px;
+    margin: 39px 0 0 0;
+
+}
+
+.images img{
+    height:55px;
+    width: 55px;
+    padding-right: 15px;
+}
+
+
+
+.badge{
+    height:78px;
+    width:78px;
+    margin: 26px 0 19px 27px;
+}
+
+.body-content_1{
+    margin: 15px 0 0 40px;
+    width:1095px;
+    height:842px;
+    background-color: #21123A;
+    display: flex;
+}
+
+.body-content_1 p{
+    font-family: Rajdhani-bold;
+    font-size: 16px;
+    color:#FFFFFF;
+    margin: 17px 0 0 19px;
+}
+.grids{
+    display: block;
+    margin-top: 46px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-columns: 172px;
+    grid-auto-rows: 50px;
+    grid-gap: 10px;
+    padding: 10px;
+    width:688px;
+    margin-bottom: 20px; 
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-family: Rajdhani-semibold;
+    font-size: 17px;
+    border-radius: 5px; 
+    border: 2px solid #5637A2;
+    color:#5637A2;
   }
 
+  .grid-container1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-columns: 172px;
+    grid-auto-rows: 50px;
+    grid-gap: 10px;
+    padding: 10px;
+    width:688px;
+    margin-bottom: 20px; 
+}
 
-  
+.grid-container1 > div {
+    text-align: center;
+    padding: 20px 0;
+    font-family: Rajdhani-semibold;
+    font-size: 17px;
+    border-radius: 5px; 
+    border: 2px solid #5637A2;
+    color:#FFFFFF;
+  }
+
+.img1{
+    height: 16px;
+    width:16px;
+    float: left;
+}
+
+  .box-end{
+      grid-column-start: span 2;    
+
+  }
+
+  .grids img{
+      height:55px;
+      width: 55px;
+  }
+
+  .panel{
+      display: flex;
+      justify-content:space-between ;
+  }
+
+  .content1{
+      display: flex;
+      margin: 45px 49px 0 -40px;
+      
+      
+  }
