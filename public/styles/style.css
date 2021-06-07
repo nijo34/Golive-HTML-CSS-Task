@@ -207,7 +207,7 @@ body {
     width:1095px;
     height:842px;
     background-color: #21123A;
-    display: flex;
+    display: block;
 }
 
 .body-content_1 p{
@@ -216,9 +216,13 @@ body {
     color:#FFFFFF;
     margin: 17px 0 0 19px;
 }
+
+.body_p{
+    padding: 20px 0 0 0;
+}
 .grids{
     display: block;
-    margin-top: 46px;
+    margin-top: 20px;
 }
 .grid-container{
     display: grid;
@@ -253,7 +257,7 @@ body {
 }
 
 .grid-container1 > div {
-    text-align: center;
+    text-align:center;
     padding: 20px 0;
     font-family: Rajdhani-semibold;
     font-size: 17px;
@@ -269,8 +273,33 @@ body {
 }
 
   .box-end{
-      grid-column-start: span 2;    
+      grid-column-start: span 2;   
+      background-color:red ; 
+      position: relative;
 
+  }
+
+
+  .box-end img{
+      height: auto;
+      width: 5px;
+      float: left;
+      position: absolute;
+      top:0;
+      left:0;
+      
+      
+  }
+
+  .image{
+      background-color: aqua;
+      height: 100px;
+      width: 100px;
+      float: left;
+      position: absolute;
+      top:0;
+      left:0;
+      
   }
 
   .grids img{
@@ -280,12 +309,14 @@ body {
 
   .panel{
       display: flex;
-      justify-content:space-between ;
+      margin: 0 0 0 9px;
+      justify-content: space-evenly;
+      
   }
 
   .content1{
       display: flex;
-      margin: 45px 49px 0 -40px;
+      margin: 45px 49px 0 0;
       
       
   }
