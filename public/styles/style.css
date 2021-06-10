@@ -1,9 +1,7 @@
-* {
-    
-    padding: 0;
-    box-sizing: border-box;
-    
-}
+
+@import "./base.css";
+@import "./settings.css";
+
 @font-face {
     font-family: Rajdhani-light;
     src: url(../assets/Rajdhani-Light.ttf);
@@ -31,100 +29,107 @@
     src: url(../assets/Rajdhani-Bold.ttf);
   }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #16032A;
-}
+
 
 .topnav {
-  background-color: #251942;
-    height: 70px;
+  background-color: var(--purple3);
+  height: 7rem;
+  width:151.8rem;
 }
 
 .logo {
-    
-    margin: 10px 0 92px 31px;
-    opacity: 1;
-    
+        margin: 1rem 0 9.2rem 3.1rem;
+
 }
 
 .side1 {
-    background-color: #251942;
+    margin-top: 0.3rem;
+    display: flex;
+    background-color: var(--purple3);
     color: #FFFFFF;
-    height: 60px;
+    height:6rem;
     font-family: Rajdhani-regular;
-    text-transform: uppercase;
-    width: 300px;
+    width: 30rem;
 }
 
 .side1-content{
-    margin: 0 0 0 45px;
+    margin: 0 0 0 1rem;
     padding: 0;
 }
 
 .side1-content p{
-    margin: 3px;
+    margin: 0.3rem;
+    font-size: 1.6rem;
+}
+#pp{
+    padding-top: 0.5rem ;
 }
 
 #p{
-    color:#BA32FF;
+    color:var(--purple);
     font-family: Rajdhani-semibold;
-    font-size: 14px;
+    font-size: 1.4rem;
     
 }
 
 .AngleLeft{    
-    width: 14px;
-    height: 17px;
+    width: 1.4rem;
+    height: 1.7rem;
     float: left;
-    margin: 10px 0 0  18px;
+    margin: 2rem 0 0 1.8rem;
 }
 
 .side2{
-    background-color: #251942;
-    height:633px;
-    width: 300px;
+    background-color: var(--purple3);
+    height:63.3rem;
+    width: 30rem;
     
 }
 
 .side2-content{
     
-    margin: 0 0 0 45px;
+    margin: 0 0 0 4.5rem;
 
 }
 
 .side2-content p{
-    margin: 3px;
+    margin: .3rem;
     font-family: Rajdhani-medium;
     font-weight: medium ;
 
 }
 
 #p0{
-    padding: 32px 0 0 0 ;  
+    font-size: 1.6rem;
+    padding: 3.2rem 0 0 0 ;  
     font:Radjdhani-Bold;
-    color: #FFFFFF;
+    color: var(--white);
+}
+#p1{
+    font-size: 1.4rem;
+    color: var(--white);
 }
 
 #p2,#p3,#p4{
-    color: #7C758D;
+    font-size: 1.4rem;
+    color: var(--grey);
     
 }
 
 .c2{
-    margin-top: 45px;
+    margin-top: 4.5rem;
 }
 
 #p5{
     font-family: Rajdhani-bold;
-    font-size: 16px;
-    color:#FFFFFF;
+    font-size: 1.6rem;
+    color:var(--white);
 }
 
 #p6,#p7{
     font-family: Rajdhani-medium;
-    font-size: 14px;
-    color:#7C758D;
+    font-size: 1.4rem;
+    color: var(--grey);
 }
 
 #left-arrow {
@@ -132,30 +137,32 @@ body {
     box-sizing: border-box;
     border-top: 20px solid transparent;
     border-bottom:20px solid transparent ;
-    border-right: 16px solid#16032A;
+    border-right: 16px solid var(--purple1);
     float:right;
     
   }
 
+ 
+
 .body-head{
+    margin-top:2.5rem;
     display: flex;
     font-family: Rajdhani-bold;
-    font-size: 16px;
-    color:#FFFFFF;
+    font-size: 1.6rem;
+    color:var(--white);
     text-align: left;
 }
 
 .body-head p{
-    padding-left:40px;
+    padding-left:4rem;
 }
 
 .help{
     font-family: Rajdhani-semibold;
-    position: absolute;
-    right: 80px;
-    font-size: 15px;
-    color:#BA32FF;
-    padding-top:3px ;
+    font-size: 1.5rem;
+    color:var(--purple);
+    padding-top:.3rem ;
+    margin: 0 0 0 58rem;
 }
 
 .content-container{
@@ -163,259 +170,265 @@ body {
 }
 
 .basic{
-    border-bottom:4px solid #BA32FF;
+    border-bottom:4px solid var(--purple);
 }
 
 .body-content{
-    margin: 15px 0 0 40px;
-    width:1095px;
-    height:123px;
-    background-color: #21123A;
+    margin: 1.5rem 0 0 4rem;
+    width:109.5rem;
+    height:12.3rem;
+    background-color: var( --purple2);
     display: flex;
 }
 
 .body-content p{
     font-family: Rajdhani-semibold;
-    font-size: 25px;
-    color:#FFFFFF;
-    margin: 49px 0 0 15px;
+    font-size: 2.5rem;
+    color:var(--white);
+    margin: 4.9rem 0 0 1.5rem;
 
 }
 .images{
-    position: absolute;
-    right: 99px;
-    margin: 39px 0 0 0;
+    margin: 3.9rem 0 0 50rem;
 
 }
 
 .images img{
-    height:55px;
-    width: 55px;
-    padding-right: 15px;
+    height:5.5rem;
+    width: 5.5rem;
+    padding-right: 1.5rem;
 }
 
 
 
 .badge{
-    height:78px;
-    width:78px;
-    margin: 26px 0 19px 27px;
+    height:7.8rem;
+    width:7.8rem;
+    margin: 2.6rem 0 1.9rem 2.7rem;
 }
 
 .body-content_1{
-    margin: 15px 0 0 40px;
-    width:1095px;
-    height:842px;
-    background-color: #21123A;
+    margin: 1.5rem 0 0 4rem;
+    width:109.5rem;
+    height:84.2rem;
+    background-color: var( --purple2);
     display: block;
 }
 
 .body-content_1 p{
     font-family: Rajdhani-bold;
-    font-size: 16px;
-    color:#FFFFFF;
-    margin: 17px 0 0 19px;
+    font-size: 1.6rem;
+    color:var(--white);
+    margin: 1.7rem 0 0 1.9rem;
 }
 
 .body_p{
-    padding: 20px 0 0 0;
+    padding: 2rem 0 0 0;
 }
+
+.atk{
+    display: flex;
+}
+.atk_image{
+    margin: 3.3rem 0 0 1rem;
+}
+
 .grids{
     display: block;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 .grid-container{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-auto-columns: 172px;
-    grid-auto-rows: 50px;
-    grid-gap: 10px;
-    padding: 10px;
-    width:688px;
-    margin-bottom: 20px; 
+    grid-auto-columns: 17.2rem;
+    grid-auto-rows: 5rem;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width:68.8rem;
+    margin-bottom: 2rem; 
 }
 
 .grid-container > div {
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
     font-family: Rajdhani-semibold;
-    font-size: 17px;
+    font-size: 1.7rem;
     border-radius: 5px; 
-    border: 2px solid #5637A2;
-    color:#5637A2;
+    border: 2px solid var(--text-color);
+    color:var(--text-color);
   }
 
   .grid-container1{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-auto-columns: 172px;
-    grid-auto-rows: 50px;
-    grid-gap: 10px;
-    padding: 10px;
-    width:688px;
-    margin-bottom: 20px; 
+    grid-auto-columns: 17.2rem;
+    grid-auto-rows: 5rem;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width:68.8rem;
+    margin-bottom: 2rem; 
 }
 
 .grid-container1 > div {
     text-align:center;
-    padding: 20px 0;
+    padding: 2rem 0;
     font-family: Rajdhani-semibold;
-    font-size: 17px;
+    font-size: 1.7rem;
     border-radius: 5px; 
-    border: 2px solid #5637A2;
-    color:#5637A2;
+    border: 2px solid var(--text-color);
+    color:var(--text-color);
   }
 
   .grid-container2{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-auto-columns: 172px;
-    grid-auto-rows: 50px;
-    grid-gap: 10px;
-    padding: 10px;
-    width:688px;
-    margin-bottom: 20px; 
+    grid-auto-columns: 17.2rem;
+    grid-auto-rows: 5rem;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width:68.8rem;
+    margin-bottom: 2rem; 
 }
 
 .grid-container2 > div {
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
     font-family: Rajdhani-semibold;
-    font-size: 17px;
+    font-size: 1.7rem;
     border-radius: 5px; 
-    border: 2px solid #5637A2;
-    color:#FFFFFF;
+    border: 2px solid var(--text-color);
+    color:var(--white);
   }
 
   .grid-container3{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-auto-columns: 500px;
-    grid-auto-rows: 50px;
-    grid-gap: 10px;
-    padding: 10px;
-    width:1000px;
-    margin: 20px 0 0 60px;
+    grid-auto-columns: 50rem;
+    grid-auto-rows: 5rem;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width:100rem;
+    margin: 2rem 0 0 6rem;
   }
 
   .grid-container3 > div{
     text-align: left;
-    padding: 15px 0 0 15px;
+    padding: 1.5rem 0 0 1.5rem;
     font-family: Rajdhani-semibold;
-    font-size: 17px;
+    font-size: 1.7rem;
     border-radius: 5px; 
-    border: 2px solid #5637A2;
-    color:#5637A2;
+    border: 2px solid var(--text-color);
+    color:var(--text-color);
     display: flex;
     
   }
 
   .grid-container3 > div >img{
-    padding: 0 0 10px 300px;
+    padding: 0 0 1rem 30rem;
   }
 
   .grid-container4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 40px;
-    grid-auto-rows: 80px;
-    grid-gap: 5px;
-    padding: 10px;
-    width:555px;
-    margin: 20px 0 0 60px;
+    grid-auto-columns: 4rem;
+    grid-auto-rows: 8rem;
+    grid-gap: .5rem;
+    padding: .5rem;
+    width:55.5rem;
+    margin: 2rem 0 0 6.5rem;
   }
 
   .grid-container4 >div{
     text-align: center;
-    padding: 8px 0 0 0;
+    padding: .8rem 0 0 0;
     font-family: Rajdhani-semibold;
-    font-size: 17px;
-    border: 2px solid #5637A2;
-    color:#FFFFFF;
+    font-size: 1.7rem;
+    border: 2px solid var(--text-color);
+    color:var(--white);
     display: block;
   }
 
   .grid-container4 > div > div >img{
-      padding-top: 10px;
+      padding-top: 1rem;
   }
 
   .grid-container5{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #21123A;
-    grid-auto-columns: 500px;
-    grid-auto-rows: 50px;
-    grid-gap: 10px;
-    padding: 10px;
-    width:1000px;
-    margin: 20px 0 0 60px;
+    background-color:  var(--purple2);
+    grid-auto-columns: 50rem;
+    grid-auto-rows: 5rem;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width:100rem;
+    margin: 2rem 0 0 6rem;
   }
 
   .grid-container5 > div{
     text-align: left;
-    padding: 15px 0 0 15px;
-    background-color: #21123A;
+    padding: 1.5rem 0 0 1.5rem;
+    background-color:  var( --purple2);
     font-family: Rajdhani-semibold;
-    font-size: 18px;
+    font-size: 1.8rem;
     border-radius: 5px; 
-    border: 2px solid #5637A2;
-    color: #FFFFFF;
+    border: 2px solid var(--text-color);
+    color: var(--white);
     display: flex;
   }
 
   .grid-container5 >div > img{
-      padding: 0 10px 10px 0;
+      padding: 0 1rem 1rem 0;
   }
 
   .grid-container6{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-columns: 40px;
-    grid-auto-rows: 80px;
-    grid-gap: 5px;
-    padding: 10px;
-    width:100px;
-    margin: 20px 0 0 60px;
+    grid-auto-columns: 4rem;
+    grid-auto-rows: 8rem;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    width:10rem;
+    margin: 2rem 0 0 6rem;
   }
 
   .grid-container6 > div{
     text-align: center;
-    padding: 8px 0 0 0;
+    padding: 0.8rem 0 0 0;
     font-family: Rajdhani-semibold;
-    font-size: 17px;
-    border: 2px solid #5637A2;
-    color:#FFFFFF;
+    font-size: 1.7rem;
+    border: 2px solid var(--text-color);
+    color:var(--white);
     display: block;
   }
 
   .grid-container7{
     display: grid;
     grid-template-columns: 10% 10%;
-    grid-auto-columns: 128px;
-    grid-auto-rows: 50px;
-    grid-gap: 5px;
-    padding: 10px;
-    width: 1115px;
-    margin: 20px 0 0 30px;
+    grid-auto-columns: 12.8rem;
+    grid-auto-rows: 5rem;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    width: 111.5rem;
+    margin: 2rem 0 0 3rem;
     justify-content: space-between;
   }
 
   .grid-container7 > div{
     text-align: center;
-    padding: 10px 0 0 0;
+    padding: 1rem 0 0 0;
     font-family: Rajdhani-bold;
-    background-color: #BA32FF;
-    font-size: 17px;
-    border: 2px solid #5637A2;
+    background-color: var(--purple);
+    font-size: 1.7rem;
+    border: 2px solid var(--text-color);
     border-radius: 5px;
-    color:#FFFFFF;
+    color:var(--white);
     display: block;
   }
 
 
   .mvp:active{
-      background-color: #BA32FF;
-      color:#FFFFFF;
+      background-color: var(--purple);
+      color:var(--white);
   }
 
 .box-end{
@@ -424,47 +437,48 @@ body {
   }
 
 .box-end > div > img{
-     height: 26px;
-    width: 26px;
+     height: 2.6rem;
+    width: 2.6rem;
     float: left;
-    margin: 0 10px 0 10px;
+    margin: 0 1rem 0 1rem;
   }
 
 
   .grids img{
-      height:55px;
-      width: 55px;
+      height:5.5rem;
+      width: 5.5rem;
   }
 
   .panel{
       display: flex;
-      margin: 0 0 0 9px;
+      margin: 0 0 0 0.9rem;
       justify-content: space-evenly;
       
   }
 
   .content1{
       display: flex;
-      margin: 45px 49px 0 0;
+      margin: 4.5rem 4.9rem 0 0;
       
       
   }
 
   .content2{
-    margin: 15px 0 0 40px;
-    width:1095px;
-    height:700px;
-    background-color: #21123A;
+    margin: 1.5rem 0 0 4rem;
+    width:109.5rem;
+    height:70rem;
+    background-color:  var( --purple2);
     display: block;
   }
 
   .content2 p{
     font-family: Rajdhani-semibold;
-    font-size: 18px;
-    color:#FFFFFF;
-    margin: 17px 0 0 19px;
-    padding: 20px 0 0 0;
+    font-size: 1.8rem;
+    color:var(--white);
+    margin: 1.7rem 0 0 1.9rem;
+    padding: 2rem 0 0 0;
 
   }
+
 
  
